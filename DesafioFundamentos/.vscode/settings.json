@@ -1,0 +1,53 @@
+{
+  // editor
+  "editor.wordWrap": "on",
+  "editor.tabSize": 5,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+
+  // workbench
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Celestial",
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+
+  // terminal
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // "csharp.debug.console": "externalTerminal",
+
+  // personalização
+  "editor.fontFamily": "jetBrains Mono",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 1.6,
+  "editor.rulers": [80, 120],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "line",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "editor.minimap.enabled": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.statusBar.visible": false,
+  "editor.occurrencesHighlight": "multiFile",
+  "multiDiffEditor.experimental.enabled": false,
+  "window.titleBarStyle": "native",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontFamily": "monospace"
+  // "editor.hover.enabled": false
+}
